@@ -115,7 +115,7 @@
 
 <main>
   <header>
-    <h1>DnD</h1>
+    <h1>Ditte & Donald</h1>
     <p class="subtitle">Together since {day}.</p>
   </header>
 
