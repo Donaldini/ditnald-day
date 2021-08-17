@@ -2,7 +2,7 @@
   import Block from "./Block.svelte"
   import Moment from "moment";
 
-  let startDate = "2020-07-04";
+  let startDate = "2015-07-17";
   let day = Moment(startDate).format("dddd, MMMM Do YYYY");
   
 </script>
@@ -13,8 +13,8 @@
     <p class="subtitle">Together since {day}.</p>
   </header>
 
-  <Block title="Married for.." startDate={startDate} />
-  <Block title="A couple for.." startDate="2015-07-17" />
+  <Block title="Married for.." startDate="2020-07-04" />
+  <Block title="A couple for.." startDate={startDate} />
 </main>
 
 <style>
